@@ -2,7 +2,7 @@
     <!-- Content -->
     <div class="card mt-5" v-if="statistics && !loading && show">
         <div v-on:click="showData()" class="card-header"><h2 class="float-left">Synthèse par régions</h2><h2 class="float-right">⬇</h2></div>
-        <div class="card-body">
+        <div class="card-body table-responsive">
             <table class="table">
                 <thead>
                 <tr>
