@@ -78,4 +78,4 @@ RandomChart processes the data and displays it in a chart using Chart.js.
 
 ##Deployment
 
-The project is deploy from GitHub to (Netlify)[https://www.netlify.com/].
+The project is deploy from GitHub to [Netlify.com](https://www.netlify.com/).
