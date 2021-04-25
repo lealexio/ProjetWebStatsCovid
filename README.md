@@ -7,6 +7,9 @@ Deployed via CI/CD on Netlify.
 
 You can view the app on netlify: [Synthèse de la pandémie COVID-19, France App](https://distracted-torvalds-135fe6.netlify.app/)
 
+## Author
+
+Alexis Leloup
 
 ## Project setup
 ```
