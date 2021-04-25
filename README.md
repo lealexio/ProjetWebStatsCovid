@@ -64,10 +64,18 @@ v-if="stats.code.substring(0,3) === 'DEP'"
 ```
 if the code of the data begin with 'DEP' it's a department, 'REG' it's a region, 'FRA' it's France stats.
 
-To hide the content of a Component, a boolean "hide" variable is used and switch when the user click on Component.
+To hide the content of a Component, a boolean "hide" variable is use and switch when the user click on Component.
 Then the component data is show when true, and hidden when false.
 
 ###Graphic Component
 
 The graphic component is named DepartementChart.
 
+This component is waiting for the selection of a department by the user, the list of available departments is passed as argument by the parent component named APP.
+When the user chooses a department, an Axios GET request is execute for the selected department.
+The result Data is given as an argument to RandomChart Component.
+RandomChart processes the data and displays it in a chart using Chart.js.
+
+##Deployment
+
+The project is deploy from GitHub to (Netlify)[https://www.netlify.com/].
