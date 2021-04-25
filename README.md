@@ -53,7 +53,7 @@ All components are called from the APP component :
 
 The loaded data are passed as arguments to them as well as the loading status.
 
-###Data Component
+### Data Component
 
 Data components are SyntheseFR, SyntheseRegions, SyntheseDepartements.
 
@@ -67,7 +67,7 @@ if the code of the data begin with 'DEP' it's a department, 'REG' it's a region,
 To hide the content of a Component, a boolean "hide" variable is use and switch when the user click on Component.
 Then the component data is show when true, and hidden when false.
 
-###Graphic Component
+### Graphic Component
 
 The graphic component is named DepartementChart.
 
@@ -76,6 +76,6 @@ When the user chooses a department, an Axios GET request is execute for the sele
 The result Data is given as an argument to RandomChart Component.
 RandomChart processes the data and displays it in a chart using Chart.js.
 
-##Deployment
+## Deployment
 
 The project is deploy from GitHub to [Netlify.com](https://www.netlify.com/).
