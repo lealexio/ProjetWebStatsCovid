@@ -37,7 +37,7 @@ And to the git : [Synthèse de la pandémie COVID-19, France GitHub](https://git
 
 ## Components.
 
-###App
+### App
 
 The App.vue component load all the data of the day thanks to the [API](https://github.com/florianzemma/CoronavirusAPI-France) of [florianzemma](https://github.com/florianzemma) that allowing to exploit Coronavirus data of France updated every day.
 
